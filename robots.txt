@@ -1,0 +1,16 @@
+# robots.txt for https://socialbooster.site/
+# Generated for Google Search Console
+
+User-agent: *
+Allow: /
+
+# Block crawlers from any future admin or API paths
+Disallow: /admin/
+Disallow: /api/
+Disallow: /*.json$
+
+# Crawl delay (optional, respected by some bots)
+Crawl-delay: 10
+
+# Sitemap location
+Sitemap: https://socialbooster.site/sitemap.xml
